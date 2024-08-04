@@ -2,4 +2,4 @@
 ### Aplicação do Padrão Composite utilizando PYTHON
 
 ### Diagrama
-<img src="uml.png">
+<img src="uml1.png">
