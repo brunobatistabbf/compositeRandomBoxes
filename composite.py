@@ -7,6 +7,9 @@ class Composite(Component):
     def add(self, product: 'Component'):
         self.children.append(product)
 
+    def remove(self, product: 'Component'):
+        self.children.remove(product)
+
     def get_price(self) -> float:
         return sum(child.get_price() for child in self.children)
 
